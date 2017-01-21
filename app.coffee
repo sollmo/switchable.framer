@@ -34,22 +34,32 @@ sketch.handler2.opacity = 0
 sketch.toolbar2_bg_border.opacity = 0
 
 sketch.handler1.on Events.Move, ->
-
+	
 	# i = toolbar1_bg witdh 끝자리 계산 
 	i = sketch.toolbar1_bg.width + 25 + 25 - sketch.handler1.width
-	
+
 	# navBar title 색상 변경 
-	sketch.title_purple.opacity = Utils.modulate(sketch.handler1.x, [0, i/2], [1, 0], true)
-	sketch.title_yellow.opacity = Utils.modulate(sketch.handler1.x, [0, i/2], [0, 1], true)
+	sketch.title_purple.opacity = Utils.modulate(sketch.handler1.x, [0, i], [1, 0], true)
+	sketch.title_yellow.opacity = Utils.modulate(sketch.handler1.x, [0, i], [0, 1], true)
 	
 	# toolbar 
-	sketch.handler1.opacity = Utils.modulate(sketch.handler1.x, [0, i/2], [1, 0], true)
-	sketch.hand1_arr.scaleX = Utils.modulate(sketch.handler1.x, [0, i/5], [1, 0], true)
-	sketch.toolbar1_bg_border.opacity = Utils.modulate(sketch.handler1.x, [0, i/2], [1, 0], true)
-	
 	sketch.handler2.x = Utils.modulate(sketch.handler1.x, [0, i], [0, i], true)
-	sketch.handler2.opacity = Utils.modulate(sketch.handler1.x, [0, i/2], [0, 1], true)
-	sketch.hand2_arr.scaleX = Utils.modulate(sketch.handler1.x, [0, i], [0, 1], true)
+	
+	sketch.handler1.opacity = Utils.modulate(sketch.handler1.x, [i*0.4, i*0.6], [1, 0], true)
+	sketch.hand1_arr.scaleX = Utils.modulate(sketch.handler1.x, [i*0.4, i*0.6], [1, 0], true)
+	
+	sketch.handler2.opacity = Utils.modulate(sketch.handler1.x, [i*0.4, i*0.6], [0, 1], true)
+	sketch.hand2_arr.scaleX = Utils.modulate(sketch.handler1.x, [i*0.4, i*0.6], [0, 1], true)
+	
+	sketch.toolbar1_bg_border.opacity = Utils.modulate(sketch.handler1.x, [0, i/2], [1, 0], true)
 	sketch.toolbar2_bg_border.opacity = Utils.modulate(sketch.handler1.x, [0, i/2], [0, 1], true)
 	
-	
+# 	print sketch.handler1.x
+# 	print sketch.handler1.opacity
+
+
+
+
+
+
+
