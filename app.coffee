@@ -33,11 +33,10 @@ sketch.title_yellow.opacity = 0
 sketch.handler2.opacity = 0
 sketch.toolbar2_bg_border.opacity = 0
 
-sketch.handler1.on Events.Move, ->
-	
-	# i = toolbar1_bg witdh 끝자리 계산 
-	i = sketch.toolbar1_bg.width + 25 + 25 - sketch.handler1.width
+# i = toolbar1_bg witdh 끝자리 계산 
+i = sketch.toolbar1_bg.width + 25 + 25 - sketch.handler1.width
 
+sketch.handler1.on Events.Move, ->
 	# navBar title 색상 변경 
 	sketch.title_purple.opacity = Utils.modulate(sketch.handler1.x, [0, i], [1, 0], true)
 	sketch.title_yellow.opacity = Utils.modulate(sketch.handler1.x, [0, i], [0, 1], true)
@@ -53,9 +52,43 @@ sketch.handler1.on Events.Move, ->
 	
 	sketch.toolbar1_bg_border.opacity = Utils.modulate(sketch.handler1.x, [0, i/2], [1, 0], true)
 	sketch.toolbar2_bg_border.opacity = Utils.modulate(sketch.handler1.x, [0, i/2], [0, 1], true)
-	
+
 # 	print sketch.handler1.x
-# 	print sketch.handler1.opacity
+# 	print sketch.handler1.opacity	
+	
+sketch.handler1.on Events.DragEnd, ->
+	if sketch.handler1.x > i*0.5
+# 		print "go right"
+		sketch.handler1.animate
+			x: i
+			opacity: 0
+			options:
+				curve: "spring(400,28,0)"
+		sketch.handler2.animate
+			x: i
+			opacity: 1
+			options:
+				curve: "spring(400,28,0)"
+		sketch.hand2_arr.scaleX = 1
+		sketch.toolbar1_bg_border.opacity = 0
+		sketch.toolbar2_bg_border.opacity = 1
+	else
+# 		print "go left"
+		sketch.handler1.animate
+			x: 0
+			opacity: 1
+			options:
+				curve: "spring(400,28,0)"
+		sketch.handler2.animate
+			x: 0
+			opacity: 0
+			options: 
+				curve: "spring(400,28,0)"
+		sketch.hand1_arr.scaleX = 1
+		sketch.toolbar1_bg_border.opacity = 1
+		sketch.toolbar2_bg_border.opacity = 0
+
+
 
 
 
