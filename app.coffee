@@ -50,8 +50,8 @@ sketch.handler1.on Events.Move, ->
 	sketch.handler2.opacity = Utils.modulate(sketch.handler1.x, [i*0.4, i*0.6], [0, 1], true)
 	sketch.hand2_arr.scaleX = Utils.modulate(sketch.handler1.x, [i*0.4, i*0.6], [0, 1], true)
 	
-	sketch.toolbar1_bg_border.opacity = Utils.modulate(sketch.handler1.x, [0, i/2], [1, 0], true)
-	sketch.toolbar2_bg_border.opacity = Utils.modulate(sketch.handler1.x, [0, i/2], [0, 1], true)
+	sketch.toolbar1_bg_border.opacity = Utils.modulate(sketch.handler1.x, [i*0.4, i*0.6], [1, 0], true)
+	sketch.toolbar2_bg_border.opacity = Utils.modulate(sketch.handler1.x, [i*0.4, i*0.6], [0, 1], true)
 
 # 	print sketch.handler1.x
 # 	print sketch.handler1.opacity	
@@ -72,6 +72,8 @@ sketch.handler1.on Events.DragEnd, ->
 		sketch.hand2_arr.scaleX = 1
 		sketch.toolbar1_bg_border.opacity = 0
 		sketch.toolbar2_bg_border.opacity = 1
+		sketch.title_purple.opacity = 0
+		sketch.title_yellow.opacity = 1
 	else
 # 		print "go left"
 		sketch.handler1.animate
@@ -87,6 +89,8 @@ sketch.handler1.on Events.DragEnd, ->
 		sketch.hand1_arr.scaleX = 1
 		sketch.toolbar1_bg_border.opacity = 1
 		sketch.toolbar2_bg_border.opacity = 0
+		sketch.title_purple.opacity = 1
+		sketch.title_yellow.opacity = 0
 
 
 
