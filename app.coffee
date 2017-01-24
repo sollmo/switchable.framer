@@ -1,20 +1,24 @@
-Framer.Device.background.backgroundColor = "F8C31C"
-
 # Import file "switchable_tabbar"
 sketch = Framer.Importer.load("imported/switchable_tabbar@1x")
 
+Framer.Device.background.backgroundColor = "F8C31C"
 sketch.toolbar1_bg.style = '-webkit-backdrop-filter':'blur(20px)'
 
+#----------------------------------------------------------------------------- MAP
 fwidth = Framer.Device.screen.width
 fheight = Framer.Device.screen.height
 
-#----------------------------------------------------------------------------- MAP
 sketch.map_bg.draggable.enabled = true
 sketch.map_bg.draggable.constraints =
 	x:-(sketch.map_bg.width-fwidth)
 	y:-(sketch.map_bg.height-fheight)
 	width: (sketch.map_bg.width*2)-fwidth
 	height: (sketch.map_bg.height*2)-fheight
+
+# sketch.map_bg.pinchable.maxScale = 3
+# sketch.map_bg.pinchable.minScale = 1
+# sketch.map_bg.pinchable.enabled = true
+# sketch.map_bg.pinchable.rotate = false
 
 #----------------------------------------------------------------------------- NavBar, Toolbar	
 sketch.handler1.draggable.enabled = true

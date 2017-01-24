@@ -866,10 +866,10 @@ window.__imported__["switchable_tabbar@1x/layers.json.js"] = [
 				"originalName": "map_bg",
 				"maskFrame": null,
 				"layerFrame": {
-					"x": -1225,
-					"y": -203,
-					"width": 3358,
-					"height": 1686
+					"x": -928,
+					"y": -814,
+					"width": 2729,
+					"height": 2729
 				},
 				"visible": true,
 				"metadata": {
@@ -878,10 +878,10 @@ window.__imported__["switchable_tabbar@1x/layers.json.js"] = [
 				"image": {
 					"path": "images/Layer-map_bg-mdgwnjk4.jpg",
 					"frame": {
-						"x": -1225,
-						"y": -203,
-						"width": 3358,
-						"height": 1686
+						"x": -928,
+						"y": -814,
+						"width": 2729,
+						"height": 2729
 					}
 				},
 				"children": []

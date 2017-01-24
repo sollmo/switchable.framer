@@ -870,10 +870,10 @@ window.__imported__["switchable_tabbar@1x/layers.json.js"] = [
 				"originalName": "map_bg",
 				"maskFrame": null,
 				"layerFrame": {
-					"x": -1225,
-					"y": -203,
-					"width": 3358,
-					"height": 1686
+					"x": -928,
+					"y": -814,
+					"width": 2729,
+					"height": 2729
 				},
 				"visible": true,
 				"metadata": {
@@ -882,10 +882,10 @@ window.__imported__["switchable_tabbar@1x/layers.json.js"] = [
 				"image": {
 					"path": "images/Layer-map_bg-mdgwnjk4.jpg",
 					"frame": {
-						"x": -1225,
-						"y": -203,
-						"width": 3358,
-						"height": 1686
+						"x": -928,
+						"y": -814,
+						"width": 2729,
+						"height": 2729
 					}
 				},
 				"children": []
@@ -1048,9 +1048,9 @@ window.__imported__["switchable_tabbar@1x/layers.json.js"] = [
 	}
 ]
 if (DeviceComponent) {DeviceComponent.Devices["iphone-6-silver"].deviceImageJP2 = false};
-if (window.Framer) {window.Framer.Defaults.DeviceView = {"deviceScale":0.5,"selectedHand":"","deviceType":"apple-iphone-7-gold","contentScale":1,"orientation":0};
+if (window.Framer) {window.Framer.Defaults.DeviceView = {"deviceScale":"fit","selectedHand":"","deviceType":"apple-iphone-7-rose-gold","contentScale":1,"orientation":0};
 }
-if (window.Framer) {window.Framer.Defaults.DeviceComponent = {"deviceScale":0.5,"selectedHand":"","deviceType":"apple-iphone-7-gold","contentScale":1,"orientation":0};
+if (window.Framer) {window.Framer.Defaults.DeviceComponent = {"deviceScale":"fit","selectedHand":"","deviceType":"apple-iphone-7-rose-gold","contentScale":1,"orientation":0};
 }
 window.FramerStudioInfo = {"deviceImagesUrl":"\/_server\/resources\/DeviceImages","documentTitle":"switchable.framer"};
 

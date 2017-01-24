@@ -7,12 +7,12 @@
   "propertyPanelToggleStates" : {
 
   },
-  "deviceType" : "apple-iphone-7-gold",
+  "deviceType" : "apple-iphone-7-rose-gold",
   "projectId" : "E1AEA12B-C535-4537-A4AC-CD89AAE7D860",
   "deviceOrientation" : 0,
   "selectedHand" : "",
   "foldedCodeRanges" : [
 
   ],
-  "deviceScale" : 0.5
+  "deviceScale" : "fit"
 }
