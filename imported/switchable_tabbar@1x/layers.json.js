@@ -15,15 +15,6 @@ window.__imported__["switchable_tabbar@1x/layers.json.js"] = [
 		"visible": true,
 		"metadata": {},
 		"backgroundColor": "rgba(250, 250, 250, 1)",
-		"image": {
-			"path": "images/Layer-$01_main-qzheq0ve.png",
-			"frame": {
-				"x": 963,
-				"y": 2505,
-				"width": 750,
-				"height": 1334
-			}
-		},
 		"children": [
 			{
 				"objectId": "9CE8F87D-A3D7-4D02-9901-65BA7BE0164C",
@@ -512,9 +503,9 @@ window.__imported__["switchable_tabbar@1x/layers.json.js"] = [
 						"maskFrame": null,
 						"layerFrame": {
 							"x": 463,
-							"y": 1232,
+							"y": 1233,
 							"width": 47,
-							"height": 74
+							"height": 73
 						},
 						"visible": false,
 						"metadata": {
@@ -524,9 +515,9 @@ window.__imported__["switchable_tabbar@1x/layers.json.js"] = [
 							"path": "images/Layer-ic_08-oefcnzy2.png",
 							"frame": {
 								"x": 463,
-								"y": 1232,
+								"y": 1233,
 								"width": 47,
-								"height": 74
+								"height": 73
 							}
 						},
 						"children": []
@@ -539,9 +530,9 @@ window.__imported__["switchable_tabbar@1x/layers.json.js"] = [
 						"maskFrame": null,
 						"layerFrame": {
 							"x": 334,
-							"y": 1231,
+							"y": 1233,
 							"width": 47,
-							"height": 75
+							"height": 73
 						},
 						"visible": false,
 						"metadata": {
@@ -551,9 +542,9 @@ window.__imported__["switchable_tabbar@1x/layers.json.js"] = [
 							"path": "images/Layer-ic_07-qjlerjk1.png",
 							"frame": {
 								"x": 334,
-								"y": 1231,
+								"y": 1233,
 								"width": 47,
-								"height": 75
+								"height": 73
 							}
 						},
 						"children": []
@@ -885,160 +876,6 @@ window.__imported__["switchable_tabbar@1x/layers.json.js"] = [
 					}
 				},
 				"children": []
-			}
-		]
-	},
-	{
-		"objectId": "B0FF7198-3970-4849-852A-9CA574260BF7",
-		"kind": "artboard",
-		"name": "$02_details",
-		"originalName": "02_details",
-		"maskFrame": null,
-		"layerFrame": {
-			"x": 1829,
-			"y": 2505,
-			"width": 750,
-			"height": 1334
-		},
-		"visible": true,
-		"metadata": {},
-		"backgroundColor": "rgba(250, 250, 250, 1)",
-		"children": [
-			{
-				"objectId": "E67073B4-652D-4EDC-BF34-1560C410BB24",
-				"kind": "group",
-				"name": "Tab_Bar",
-				"originalName": "Tab Bar",
-				"maskFrame": null,
-				"layerFrame": {
-					"x": 0,
-					"y": 1234,
-					"width": 750,
-					"height": 100
-				},
-				"visible": false,
-				"metadata": {
-					"opacity": 1
-				},
-				"image": {
-					"path": "images/Layer-Tab_Bar-rty3mdcz.png",
-					"frame": {
-						"x": 0,
-						"y": 1234,
-						"width": 750,
-						"height": 100
-					}
-				},
-				"children": [
-					{
-						"objectId": "F9112444-DD81-4A78-9054-E5A42DB30F4D",
-						"kind": "group",
-						"name": "ic_ghost",
-						"originalName": "ic_ghost",
-						"maskFrame": null,
-						"layerFrame": {
-							"x": 637,
-							"y": 1266,
-							"width": 30,
-							"height": 37
-						},
-						"visible": true,
-						"metadata": {
-							"opacity": 1
-						},
-						"image": {
-							"path": "images/Layer-ic_ghost-rjkxmti0.png",
-							"frame": {
-								"x": 637,
-								"y": 1266,
-								"width": 30,
-								"height": 37
-							}
-						},
-						"children": []
-					},
-					{
-						"objectId": "339104A6-F520-4A1F-A53A-BA477AE89920",
-						"kind": "group",
-						"name": "ic_cal",
-						"originalName": "ic_cal",
-						"maskFrame": null,
-						"layerFrame": {
-							"x": 77,
-							"y": 1271,
-							"width": 34,
-							"height": 24
-						},
-						"visible": false,
-						"metadata": {
-							"opacity": 1
-						},
-						"image": {
-							"path": "images/Layer-ic_cal-mzm5mta0.png",
-							"frame": {
-								"x": 77,
-								"y": 1271,
-								"width": 34,
-								"height": 24
-							}
-						},
-						"children": []
-					},
-					{
-						"objectId": "ECD53112-3948-4B3E-9A0A-CECE87B0C3C0",
-						"kind": "group",
-						"name": "ic_cal_on",
-						"originalName": "ic_cal/on",
-						"maskFrame": null,
-						"layerFrame": {
-							"x": 77,
-							"y": 1271,
-							"width": 34,
-							"height": 24
-						},
-						"visible": true,
-						"metadata": {
-							"opacity": 1
-						},
-						"image": {
-							"path": "images/Layer-ic_cal_on-runentmx.png",
-							"frame": {
-								"x": 77,
-								"y": 1271,
-								"width": 34,
-								"height": 24
-							}
-						},
-						"children": []
-					},
-					{
-						"objectId": "BC8C9DA3-1832-4024-890F-1BD88728C20C",
-						"kind": "group",
-						"name": "ic_people",
-						"originalName": "ic_people",
-						"maskFrame": null,
-						"layerFrame": {
-							"x": 448,
-							"y": 1268,
-							"width": 44,
-							"height": 33
-						},
-						"visible": true,
-						"metadata": {
-							"opacity": 1
-						},
-						"image": {
-							"path": "images/Layer-ic_people-qkm4qzle.png",
-							"frame": {
-								"x": 448,
-								"y": 1268,
-								"width": 44,
-								"height": 33
-							}
-						},
-						"children": []
-					}
-				]
 			}
 		]
 	}
